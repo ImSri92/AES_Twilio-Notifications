@@ -26,6 +26,6 @@ client = Client(account_sid, auth_token)
 
 message = client.messages.create(
     body='Alert! A file has been encrypted!',
-    from_='+1 361 264 4011',
-    to='+1 504 338 1970'
+    from_='XXXXXXXXXXXX',
+    to='XXXXXXXXXXXX'
 )
