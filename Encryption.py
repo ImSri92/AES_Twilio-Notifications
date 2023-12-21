@@ -19,8 +19,8 @@ with open('key.bin', 'wb') as f:
     f.write(key)
 
 # Twilio credentials
-account_sid = 'AC4223245fa22dd66e3eab7b71e9d034ee'
-auth_token = '66dc0f5b261c4cb5ae102652249050fc'
+account_sid = 'XXXXXXXXXXXXXXXXXXXXXXXXXXX'
+auth_token = 'XXXXXXXXXXXXXXXXXXX'
 
 client = Client(account_sid, auth_token)
 
