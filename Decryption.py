@@ -19,13 +19,13 @@ with open('decrypted.txt', 'wb') as f:
     f.write(data)
 
 # Twilio credentials
-account_sid = 'AC4223245fa22dd66e3eab7b71e9d034ee'
-auth_token = '66dc0f5b261c4cb5ae102652249050fc'
+account_sid = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+auth_token = 'XXXXXXXXXXXXXXXXXXXXXXXXXX'
 
 client = Client(account_sid, auth_token)
 
 message = client.messages.create(
     body='Alert! Decryption of a file is done!',
-    from_='+1 361 264 4011',
-    to='+1 504 338 1970'
+    from_='XXXXXXXXXXXXXXXXXXXXX',
+    to='XXXXXXXXXXXXXXXXXXXXXXXX'
 )
